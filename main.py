@@ -5,6 +5,8 @@ import re
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
+        self.title("Calculator")
+        self.iconbitmap("assets/calculator.ico")
         self.geometry("500x600")
         ctk.set_appearance_mode("dark")
         ctk.set_default_color_theme("dark-blue")
